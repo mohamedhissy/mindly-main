@@ -83,3 +83,10 @@ class HomeView extends StatelessWidget {
             color: Colors.blue,
             child: Center(child: Text('New Container')),
           ),
+          // إضافة Container جديد هنا
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+            child: Center(child: Text('New Container')),
+          ),
