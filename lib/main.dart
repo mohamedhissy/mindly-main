@@ -25,7 +25,7 @@ class HomeView extends StatelessWidget {
         children: [
           SafeArea(
             child: Container(
-              color: Colors.pink,
+              color: Colors.cyan,
               child: Center(child: Text('data')),
           // إضافة Container جديد هنا
           Container(
