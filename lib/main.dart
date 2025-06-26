@@ -27,10 +27,31 @@ class HomeView extends StatelessWidget {
             child: Container(
               color: Colors.amber,
               child: Center(child: Text('data')),
-            ),
+          // إضافة Container جديد هنا
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+            child: Center(child: Text('New Container')),
           ),
-        ],
-      ),
-    );
-  }
-}
+          // إضافة Container جديد هنا
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+            child: Center(child: Text('New Container')),
+          ),
+          // إضافة Container جديد هنا
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+            child: Center(child: Text('New Container')),
+          ),
+          // إضافة Container جديد هنا
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+            child: Center(child: Text('New Container')),
+          ),
